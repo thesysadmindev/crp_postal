@@ -46,4 +46,6 @@ config = {
     -- How often in milliseconds the postal code is updated on each client.
     -- I wouldn't recommend anything lower than 50ms for performance reasons
     updateDelay = nil,
+
+    useEsx = GetResourceState("es_extended") ~= "missing",
 }
